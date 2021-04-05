@@ -31,19 +31,18 @@ export const Menu = styled.div`
 
 export const Logo = styled.div`
   a {
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: ${props => props.theme.text};
   }
 
   span {
-    height: 1rem;
-    width: 1rem;
-    background: ${props => props.theme.red};
-    margin: 0px;
-    border-radius: 100%;
+    color: ${props => props.theme.red};
+    font-weight: 800;
     display: inline-block;
-    position: relative;
-    bottom: 2px;
+
+    font-size: 2.2rem;
+    margin-left: 5px;
+    margin-top: 10px;
   }
 `
